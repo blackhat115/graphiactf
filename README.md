@@ -19,3 +19,5 @@ we need to keep four things in mind
 2. Reservation (UPFRONT)
 3. Elasticity -  Scheduling services of resources )
 4.  Track and manage ( analyze the traffic and resources and manage them )
+
+CHANGE INSTANCE TYPE TO t2.2xlarge FOR FASTER PERFROMANCE
