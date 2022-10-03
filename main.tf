@@ -1,3 +1,4 @@
+
 resource "aws_vpc" "graph_vpc" {
     cidr_block = var.cidr_block_vpc
     enable_dns_hostnames = true
@@ -45,16 +46,3 @@ resource "aws_route_table_association" "graph_route_association" {
     route_table_id = aws_route_table.graph_routetable.id
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-  

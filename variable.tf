@@ -21,13 +21,5 @@ variable "instance_type" {
     default = "t2.large"
 }
 
-variable "acc_key" {
-    default = "Access_key" ##
-  
-}
 
-variable "scrt_key" {
-    default = "secret_key" ##
-  
-}
 
