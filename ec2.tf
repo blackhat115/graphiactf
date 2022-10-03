@@ -94,20 +94,6 @@ resource "aws_key_pair" "deployer" {
   
 }
 
-data "aws_instance" "myawsinstance" {
-    filter {
-      name = "tag:name"
-      values = ["Ubuntu_graph_docker"]
-    }
-
-    depends_on = [
-      aws_instance.Ubuntu_graph_docker
-    ]
-}
-
-output "info" {
-    value = data.aws_instance.myawsinstance.public_ip
-}
 
 
  
